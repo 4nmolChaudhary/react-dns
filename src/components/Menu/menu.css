@@ -1,0 +1,22 @@
+.menu-button {
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'GoogleSans-Regular';
+  font-weight: 800;
+  padding: 8px;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 14px;
+  color: #353536;
+  cursor: pointer;
+  background: #eee;
+}
+.szh-menu-container,
+.szh-menu {
+  width: 100%;
+}
+.szh-menu__item {
+  width: auto;
+  font-size: 14px;
+}

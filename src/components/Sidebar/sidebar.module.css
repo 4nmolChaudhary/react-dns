@@ -1,0 +1,44 @@
+.sidebar {
+  background: #fff;
+  border-right: 2px solid #f7f8fa;
+  padding: 16px;
+}
+.sectionTitle {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-transform: uppercase;
+  padding: 12px;
+  color: #aaa7ad;
+}
+.menuItem {
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-family: 'GoogleSans-Regular';
+  font-weight: 800;
+  padding: 8px;
+  border-radius: 4px;
+
+  background: none;
+  width: 100%;
+  font-size: 14px;
+  color: #93939d;
+  cursor: pointer;
+}
+.menuItem svg {
+  margin-right: 12px;
+}
+.menuItem:hover {
+  background: #efeef3;
+  color: #1b1b1b;
+}
+.menuItem:hover svg {
+  fill: #1b1b1b;
+}
+.menuContaier {
+  width: 100%;
+}
