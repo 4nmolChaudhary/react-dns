@@ -29,12 +29,13 @@
   align-items: center;
 }
 .modal-content {
-  width: 80%;
-  height: 80%;
+  width: 98%;
+  height: 98%;
   background-color: #fff;
   border-radius: 4px;
+  display: grid;
+  grid-template-rows: 48px auto;
 }
-
 .modal-head {
   display: flex;
   justify-content: space-between;
@@ -47,3 +48,10 @@
   border: none;
   outline: none;
 }
+.home {
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+  grid-template-rows: 5fr 5fr;
+  gap: 16px;
+}
+

@@ -5,12 +5,14 @@
   font-family: 'GoogleSans-Regular';
   font-weight: 800;
   padding: 8px;
-  border-radius: 4px;
+  border-radius: 12px;
   width: 100%;
   font-size: 14px;
   color: #353536;
   cursor: pointer;
   background: #eee;
+  margin-bottom: 12px;
+  text-transform: uppercase;
 }
 .szh-menu-container,
 .szh-menu {

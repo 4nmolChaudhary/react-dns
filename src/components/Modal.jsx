@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Modal({ title, onClose }) {
+function Modal({ title, onClose, children }) {
   return (
     <div className='modal'>
       <div className='modal-content'>
@@ -13,6 +13,7 @@ function Modal({ title, onClose }) {
             </svg>
           </button>
         </div>
+        {children}
       </div>
     </div>
   )

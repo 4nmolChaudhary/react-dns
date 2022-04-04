@@ -1,15 +1,12 @@
 .main {
   background: #fff;
   padding: 16px;
-  display: grid;
-  grid-template-columns: 4fr 6fr;
-  grid-template-rows: 3fr 7fr;
-  gap: 16px;
   box-sizing: border-box;
 }
 .card {
-  background: #fff;
   border-radius: 4px;
+  display: grid;
+  grid-template-rows: 48px auto;
 }
 .card-head {
   display: flex;
