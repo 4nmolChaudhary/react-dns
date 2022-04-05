@@ -22,7 +22,7 @@ function Sidebar() {
       <div className={styles.sidebar}>
         <div className={styles.menuContaier}>
           <AddNewMenu />
-          <MenuItem icon={<Home size='23' variant='Bold' />} label='Home' to='/' />
+          <MenuItem icon={<Home size='23' variant='Bold' />} label='Home' to='/home' />
           <SectionTitle title='All Files' />
           <MenuItem icon={<RefreshRightSquare size='24' variant='Bold' />} label='Recent' to='/recent' />
           <MenuItem icon={<Send2 size='24' variant='Bold' />} label='Sent' to='/sent' />

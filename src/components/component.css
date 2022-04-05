@@ -1,0 +1,66 @@
+.minimal-input .error-msg {
+  font-size: 12px;
+  color: #ff411f;
+  font-weight: 800;
+  margin-left: 0;
+}
+.minimal-input-base {
+  width: 100%;
+  font-weight: 800;
+  background: #f7f8fa;
+  border-radius: 4px;
+  padding: 8px 14px;
+  border: none;
+  outline: none;
+}
+.minimal-select-base {
+  padding: 8px 9px 8px 16px;
+}
+.minimal-input {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.minimal-input button {
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid #a1a1a1;
+  color: #000;
+}
+.minimal-input button:first-child {
+  border-radius: 4px 0 0 4px;
+}
+.minimal-input button:last-child {
+  border-radius: 0 4px 4px 0;
+}
+.minimal-input .inactive {
+  background: #eee;
+  color: #606060;
+}
+.minimal-input-label {
+  font-size: 13px;
+  font-weight: 800 !important;
+}
+.error-input {
+  color: red !important;
+  background: #ff000021 !important;
+  border: 1px solid red !important;
+  font-weight: 800;
+}
+.error-label {
+  color: red !important;
+}
+input:disabled:hover,
+textarea:disabled:hover {
+  cursor: not-allowed;
+}
+input:disabled,
+textarea:disabled {
+  color: #a1a1a1;
+}
+.react-select-disabled {
+  pointer-events: auto !important;
+  cursor: not-allowed !important;
+}
+.disabled-label {
+  color: #a1a1a1;
+}
